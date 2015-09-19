@@ -57,10 +57,10 @@ cacheSolve <- function(x, ...) {
 
 ### Run them:
 
-Here are few lines to test the functions:
-
+Here are few lines to test the functions in R:
+```
 mat <- matrix(1:4, ncol = 2, nrow = 2, byrow = TRUE)
 matC <- makeCacheMatrix(mat)
 cacheSolve(matC)
 cacheSolve(matC)
-
+```

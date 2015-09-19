@@ -14,7 +14,7 @@ Welcome in the repository of my second programming assignment.
 ### Function: `makeCacheMatrix`
 
 The makeCacheMatrix function creates a special "matrix", which is able to cache a value
-
+```
 makeCacheMatrix <- function(x) {
         m <- NULL
         # Set the value of the Matrix
@@ -33,11 +33,11 @@ makeCacheMatrix <- function(x) {
              setInv = setInv,
              getInv = getInv)
 }
-
+```
 The following function calculates the inverse of the special "matrix" created with the above function.
 
 ### Function: `cacheSolve`
-
+```
 cacheSolve <- function(x, ...) {
         # Checks to see if the inverse has already been calculated. 
         m <- x$getInv()
@@ -53,6 +53,7 @@ cacheSolve <- function(x, ...) {
         x$setInv(m)
         m
 }
+```
 
 ### Run them:
 
